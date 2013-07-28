@@ -12,6 +12,7 @@ body {
 	color:#fff;
 }
 header {
+	width:996px;
 	background-image: url(../images/header-bg.jpg);
 	background-repeat: no-repeat;
 	overflow:hidden;
@@ -23,7 +24,10 @@ header {
 	float:left;
 	padding-left:5px;
 }
-
+.logo {
+	width:100%;
+	height:100%;
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
@@ -68,6 +72,36 @@ nav a:hover {
 	clear: both;
 }
 
+/* ---------------------------------GALLERY ------------------------------------------------> */
+#gallery ul {
+	border:1px dashed #fff;
+	list-style-type: none;
+	margin: 20px auto;
+	overflow:hidden;
+	padding:5px;
+}
+#gallery li {
+	float:left;
+	margin-left:19px;
+}
+#gallery a {
+	border:10px solid #fff;
+	display:block;
+	width:143px;
+	height:106px;
+	outline:0;
+}
+#gallery a:visited {
+	border-color:#fff;
+}
+#gallery a:hover {
+	border-color:#f00;
+}
+
+#gallery a:active {
+	border-color:#000;
+}
+
 
 
 /* ---------------------------------Form ------------------------------------------------> */
@@ -83,7 +117,7 @@ input {
 }
 input:focus {
 	background:#b9e1ff;
-	color:#fff;
+	color:#000;
 }
 textarea {
 	width:100%;
