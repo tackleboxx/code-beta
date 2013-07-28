@@ -6,7 +6,15 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
-
+body {
+	background-color:#000;
+	background-image: url(../images/bg-image.jpg);
+	color:#fff;
+}
+header {
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
