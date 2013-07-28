@@ -90,6 +90,7 @@ nav a:hover {
 	width:143px;
 	height:106px;
 	outline:0;
+	margin-bottom:10px;
 }
 #gallery a:visited {
 	border-color:#fff;
@@ -99,6 +100,35 @@ nav a:hover {
 }
 
 #gallery a:active {
+	border-color:#000;
+}
+.gallery ul {
+	border:1px dashed #fff;
+	list-style-type: none;
+	margin: 20px auto;
+	overflow:hidden;
+	padding:5px;
+}
+.gallery li {
+	float:left;
+	margin-left:19px;
+}
+.gallery a {
+	border:10px solid #fff;
+	display:block;
+	width:143px;
+	height:115px;
+	outline:0;
+	margin-bottom:10px;
+}
+.gallery a:visited {
+	border-color:#fff;
+}
+.gallery a:hover {
+	border-color:#f00;
+}
+
+.gallery a:active {
 	border-color:#000;
 }
 
