@@ -14,6 +14,7 @@ body {
 header {
 	background-image: url(../images/header-bg.jpg);
 	background-repeat: no-repeat;
+	overflow:hidden;
 }
 #socials {
 	float:right;
@@ -32,6 +33,7 @@ header {
 /* ---------------------------------NAV ------------------------------------------------> */
 nav {
 	width:996px;
+	overflow:hidden;
 }
 nav ul {
 	width:996px;
@@ -57,6 +59,15 @@ nav a {
 nav a:hover {
 	color:#f00;
 }
+/* ---------------------------------SLIDER ------------------------------------------------> */
+
+.slider {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	clear: both;
+}
+
+
 
 /* ---------------------------------Form ------------------------------------------------> */
 form {
