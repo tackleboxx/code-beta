@@ -162,17 +162,48 @@ footer {
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+nav li {
+	width:160px;
+	float:none;
+}
+.social {
+	float:none;
+}
+}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+
+nav li {
+	width:160px;
+	float:none;
+}	
+.social {
+	float:none;
+}
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+nav li {
+	width:160px;
+	float:none;
+}
+.social {
+	float:none;
+}
+}
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
-
+@media only screen and (max-width: 479px) {
+nav li {
+	width:160px;
+	float:none;
+}
+.social {
+	float:none;
+}
+}
 
 /* =============================================================================
    Font-Face
