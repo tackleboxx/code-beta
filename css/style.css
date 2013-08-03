@@ -34,7 +34,26 @@ header {
   
 .img {
 	display:inline;
-}  
+} 
+.link {
+	font-family: 'Sigmar One', cursive;
+	color:#fff;
+	font-size: 1.5em;
+	margin:15px auto 0 auto;
+	padding-left:10%;
+} 
+.link a {
+	font-family: 'Sigmar One', cursive;
+	color:#fff;
+	text-decoration: none;
+	display:block;
+	font-size: 1.3em;
+	margin:15px auto 0 auto;
+	padding-left:10%;
+} 
+.link a:hover {
+	color:#f00;
+}
 /* ---------------------------------NAV ------------------------------------------------> */
 nav {
 	width:996px;
