@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
 <window height="874" maximized="true" width="1389" x="4" y="22">
 <fastViewData fastViewLocation="1024"/>
@@ -17,6 +17,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="70" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -25,10 +27,51 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="1"/>
+<part id="0"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="com.aptana.editor.css" name="style.css" partName="style.css" title="style.css" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/css/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/css/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3581" selectionTopPixel="3059"/>
+</editor>
+<editor id="com.aptana.editor.html" name="palace-of-sorrow.html" partName="palace-of-sorrow.html" title="palace-of-sorrow.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/palace-of-sorrow.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/palace-of-sorrow.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3760" selectionTopPixel="1125"/>
+</editor>
+<editor id="com.aptana.editor.html" name="about.html" partName="about.html" title="about.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/about.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/about.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="contact.html" partName="contact.html" title="contact.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/contact.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/contact.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="dunn-robert.html" partName="dunn-robert.html" title="dunn-robert.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/dunn-robert.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/dunn-robert.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="gallery.html" partName="gallery.html" title="gallery.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/gallery.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/gallery.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="1643" selectionTopPixel="352"/>
+</editor>
+<editor id="com.aptana.editor.html" name="tackleboxxdesigns.html" partName="tackleboxxdesigns.html" title="tackleboxxdesigns.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/tackleboxxdesigns.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/tackleboxxdesigns.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -52,9 +95,7 @@
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="school">
-<project name="school">
-<selection>
-<element path="/school"/>
+<project name="school">&#x0A;<selection>&#x0A;<element path="/school"/>
 </selection>
 </project>
 </viewState>
@@ -63,7 +104,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.css" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -164,7 +205,120 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/palace-of-sorrow.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/css/style.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/index.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/about.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/contact.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/dunn-robert.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/gallery.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/tackleboxxdesigns.html"/>
+</editors>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3611" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="916" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3205" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="780" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3077" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="780" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3560" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="905" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3560" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="903" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3560" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="903" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="14" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3146" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="1072" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="1072" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3760" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="3324" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3760" y="0"/>
+</item>
+<item historyLabel="about.html" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="contact.html" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="dunn-robert.html" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="gallery.html" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="palace-of-sorrow.html" index="0">
+<position info="not_deleted" x="3760" y="0"/>
+</item>
+<item historyLabel="tackleboxxdesigns.html" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="3324" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="1658" y="0"/>
+</item>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="3324" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="1643" y="15"/>
+</item>
+<item active="true" historyLabel="style.css" index="1">
+<position info="not_deleted" x="3324" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -180,5 +334,30 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="tackleboxxdesigns.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/tackleboxxdesigns.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/tackleboxxdesigns.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/index.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="gallery.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/gallery.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/gallery.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="dunn-robert.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/dunn-robert.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/dunn-robert.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="contact.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/contact.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/contact.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="about.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/about.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/about.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="palace-of-sorrow.html" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/palace-of-sorrow.html">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/palace-of-sorrow.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="style.css" tooltip="/Users/tackleboxxdesigns/Desktop/web standard project/week3/code-beta/css/style.css">
+<persistable uri="file:/Users/tackleboxxdesigns/Desktop/web%20standard%20project/week3/code-beta/css/style.css"/>
+</file>
+</mruList>
 </workbench>
