@@ -182,9 +182,18 @@ footer {
 
 /* Tablet Portrait size to Base 996px */
 @media only screen and (min-width: 768px) and (max-width: 995px) {
+
 nav li {
-	width:160px;
+	background-color:#f00;
 	float:none;
+	border-bottom: 1px solid #000;
+}
+nav a {
+	color:#fff;
+	line-height: 50px;
+}
+nav a:hover {
+	color:#000;
 }
 .social {
 	float:none;
@@ -195,9 +204,17 @@ nav li {
 @media only screen and (max-width: 767px) {
 
 nav li {
-	width:160px;
+	background-color:#f00;
 	float:none;
-}	
+	border-bottom: 1px solid #000;
+}
+nav a {
+	color:#fff;
+	line-height: 50px;
+}
+nav a:hover {
+	color:#000;
+}
 .social {
 	float:none;
 }
@@ -206,8 +223,16 @@ nav li {
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 nav li {
-	width:160px;
+	background-color:#f00;
 	float:none;
+	border-bottom: 1px solid #000;
+}
+nav a {
+	color:#fff;
+	line-height: 50px;
+}
+nav a:hover {
+	color:#000;
 }
 .social {
 	float:none;
@@ -216,8 +241,16 @@ nav li {
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {
 nav li {
-	width:160px;
+	background-color:#f00;
 	float:none;
+	border-bottom: 1px solid #000;
+}
+nav a {
+	color:#fff;
+	line-height: 50px;
+}
+nav a:hover {
+	color:#000;
 }
 .social {
 	float:none;
